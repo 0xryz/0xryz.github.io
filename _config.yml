@@ -26,7 +26,7 @@ author:
   avatar           : "profile.png"
   name             : "0xryz"
   pronouns         : # example: "she/her"  
-  bio              : "Full-time bug bounty hunter and security researcher passionate about finding vulnerabilities and helping organizations improve their security posture. Specializing in web application security, API testing, and responsible disclosure."
+  bio              : "Full-time bug bounty hunter and security researcher. Specializing in web application security and responsible disclosure."
   location         : "Cairo, Egypt"
   employer         : # Employer/Company name
   uri              : # URL
@@ -233,6 +233,12 @@ collections:
   talks:
     output: true
     permalink: /:collection/:path/
+  writeups:
+    output: true
+    permalink: /:collection/:path/
+  stories:
+    output: true
+    permalink: /:collection/:path/
 
 
 # These settings control how pages and collections are included in the site
@@ -290,6 +296,24 @@ defaults:
       layout: talk
       author_profile: true
       share: true
+  # _writeups
+  - scope:
+      path: ""
+      type: writeups
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
+  # _stories
+  - scope:
+      path: ""
+      type: stories
+    values:
+      layout: single
+      author_profile: true
+      share: true
+      comments: true
 
 
 # Sass/SCSS
