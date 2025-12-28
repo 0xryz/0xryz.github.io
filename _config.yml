@@ -9,10 +9,10 @@
 # Basic Site Settings
 locale                   : "en-US"
 site_theme               : "default" # the available themes options are "default", "air", "sunrise", "mint", "dirt" and "contrast"
-title                    : "Your Name / Site Title"
+title                    : "0xryz"
 title_separator          : "-"
-name                     : &name "Your Name"
-description              : &description "Your Name's academic portfolio"   # Update this with a general description of your site, this is the default if not overridden by a page
+name                     : &name "0xryz"
+description              : &description "just some stuff about hacking"   # Update this with a general description of your site, this is the default if not overridden by a page
 url                      : https://0xryz.github.io # The base hostname & protocol for your site e.g. "https://[your GitHub username].github.io",
                                                            # or if you already have some other page hosted on Github then use "https://[your GitHub username].github.io/[Your Repo Name]"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -24,24 +24,24 @@ repository               : "0xryz/0xryz"
 author:
   # Biographic information
   avatar           : "profile.png"
-  name             : "Your Sidebar Name"
+  name             : "0xryz"
   pronouns         : # example: "she/her"  
-  bio              : "Short biography for the left-hand sidebar"
-  location         : "Earth"
-  employer         : "Red Brick University"
+  bio              : "Full-time bug bounty hunter and security researcher passionate about finding vulnerabilities and helping organizations improve their security posture. Specializing in web application security, API testing, and responsible disclosure."
+  location         : "Cairo, Egypt"
+  employer         : # Employer/Company name
   uri              : # URL
-  email            : "none@example.org" 
+  email            : # Email 
 
   # Academic websites
   academia         : # URL
   arxiv            : # URL - Update with the correct link to your profile
-  googlescholar    : "https://scholar.google.com/citations?user=PS_CX0AAAAAJ"
+  googlescholar    : # URL
   inspire-hep      : # URL
   impactstory      : # URL
-  orcid            : "https://orcid.org/yourorcidurl"
+  orcid            : # URL
   semantic         : # URL
   ssrn             : # URL
-  pubmed           : "https://www.ncbi.nlm.nih.gov/pubmed/?term=john+snow"
+  pubmed           : # URL
   researchgate     : # URL
   scopus           : # URL
   zotero           : # URL
@@ -57,7 +57,7 @@ author:
 
   # Social media
   artstation       : # Username
-  bluesky          : "bsky.app" # Replace this with you Bluesky username
+  bluesky          : # Username
   facebook         : # Username
   flickr           : # Username
   foursquare       : # Username
